@@ -13,4 +13,3 @@ class URLSTAT(commands.Cog):
         mystr = mybytes.decode("utf8")
         fp.close()
         await ctx.send(mystr)
-        #await ctx.send(urllib.request.urlopen("https://tz2.us/temp.php").read())
