@@ -10,4 +10,4 @@ class URLSTAT(commands.Cog):
         url = "https://mcapi.us/server/query?ip=104.238.222.158"
         response = urllib.urlopen(url)
         data = json.loads(response.read())
-        print data
+        pawait ctx.send(data)
