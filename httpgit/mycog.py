@@ -6,7 +6,5 @@ class Mycog(commands.Cog):
     """My custom cog"""
 
     @commands.command()
-    async def mycom(self, ctx):
-        """This does stuff!"""
-        # Your code will go here
+    async def status(self, ctx):
         await ctx.send(urllib.request.urlopen("https://tz2.us/temp.php").read())
