@@ -1,6 +1,6 @@
 from redbot.core import commands
 
-class httpget(commands.Cog):
+class Mycog(commands.Cog):
     """My custom cog"""
 
     @commands.command()
