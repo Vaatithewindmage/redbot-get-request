@@ -1,7 +1,7 @@
 {
 	"AUTHOR": "VaatiTheMinish",
-	"INSTALL_MSG": "This more of a test though and shouldnt be used",
+	"INSTALL_MSG": "This is more so me testing things so it might be broken at times",
 	"NAME": "Vaati",
 	"SHORT": "A test",
-	"DESCRIPTION": "This more of a test though and shouldnt be used"
+	"DESCRIPTION": "A simple way to get a responce as a discord message"
 }
