@@ -1,9 +1,7 @@
 import urllib.request
 from redbot.core import commands
-temp = 3
 
 class URLSTAT(commands.Cog):
-
 
     @commands.command()
     async def status(self, ctx):
