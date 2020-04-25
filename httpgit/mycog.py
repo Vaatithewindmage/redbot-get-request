@@ -10,4 +10,4 @@ class Mycog(commands.Cog):
         # Your code will go here
         await ctx.send("I can do stuff!")
         contents = urllib.request.urlopen("https://tz2.us/temp.php").read()
-        await ctx.send("Ok so almost works")
+        print(contents)
