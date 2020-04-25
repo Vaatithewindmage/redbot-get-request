@@ -1,5 +1,6 @@
 import urllib.request
 from redbot.core import commands
+temp = 3
 
 class Mycog(commands.Cog):
     """My custom cog"""
@@ -10,4 +11,4 @@ class Mycog(commands.Cog):
         # Your code will go here
         await ctx.send("I can do stuff!")
         contents = urllib.request.urlopen("https://tz2.us/temp.php").read()
-        print(contents)
+        print(temp)
