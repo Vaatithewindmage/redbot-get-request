@@ -2,8 +2,8 @@ import urllib.request
 from redbot.core import commands
 temp = 3
 
-class Mycog(commands.Cog):
-    """My custom cog"""
+class URLSTAT(commands.Cog):
+
 
     @commands.command()
     async def status(self, ctx):
